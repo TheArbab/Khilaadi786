@@ -64,11 +64,6 @@ logo = """
 \033[1;91m:•◈•▄██▀▀██▄██▀▀██▄██▀▀██▄██▀▀██▄██▀▀██▄██▀▀██▄██▀•◈•
 \033[1;92m:•◈•╬╬╬╬╬╬╬╬╬╬╬╬╬•◈•\033[1;91mArbab-Memon\033[1;92m•◈•╬╬╬╬╬╬╬╬╬╬╬╬╬╬•◈•"""
 
-def main():
-    try:
-	img = Image.open("Arbab.jpg")
-	print img.tobitmap()
-
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
