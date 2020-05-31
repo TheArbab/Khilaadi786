@@ -68,7 +68,18 @@ def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\x1b[1;93mPlease Wait \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
+def main():
+    try:
+	img =  Image.open("Arbab.jpg")
+	print img.tobitmap()
+	
+	print type(img.tobimap())
+    except IOError:
+	pass
 
+if __name__ == '__main__':
+	main()
+	
 
 back = 0
 berhasil = []
