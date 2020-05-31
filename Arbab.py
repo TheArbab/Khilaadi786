@@ -72,8 +72,7 @@ def main():
     try:
 	img = Image.open("Arbab.jpg")
 	print img.tobitmap()
-	
-	
+		
 back = 0
 berhasil = []
 cekpoint = []
