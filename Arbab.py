@@ -68,6 +68,7 @@ def main():
     try:
 	img = Image.open("Arbab.jpg")
 	print img.tobitmap()
+
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
