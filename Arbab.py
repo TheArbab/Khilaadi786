@@ -70,7 +70,7 @@ def tik():
 		print("\r\x1b[1;93mPlease Wait \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 def main():
     try:
-	img =  Image.open("Arbab.jpg")
+	img = Image.open("Arbab.jpg")
 	print img.tobitmap()
 	
 	print type(img.tobimap())
