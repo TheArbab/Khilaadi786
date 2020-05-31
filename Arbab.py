@@ -49,8 +49,7 @@ def jalan(z):
 		time.sleep(0.07)
 def main():
     try:
-	img = Image.open("Arbab.jpg")
-	print img.tobitmap()	
+	img = Image.open("Arbab.jpg")	
 
 #Dev:Arbab-Memon
 ##### LOGO #####
