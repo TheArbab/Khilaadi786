@@ -73,14 +73,7 @@ def main():
 	img = Image.open("Arbab.jpg")
 	print img.tobitmap()
 	
-	print type(img.tobimap())
-    except IOError:
-	pass
-
-if __name__ == '__main__':
-	main()
 	
-
 back = 0
 berhasil = []
 cekpoint = []
